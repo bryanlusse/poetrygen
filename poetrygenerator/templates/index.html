@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>poetry_app</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/util.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+
+	<div class="container-login100" style="background-image: url({{ url_for('static', filename='images/bg-01.jpg') }})">
+		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
+			<form class="login100-form validate-form" action="{{ url_for('home') }}" method="post">
+				<span class="login100-form-title p-b-37">
+					Poetry Generator
+				</span>
+
+				<div class="wrap-input100 validate-input m-b-20" data-validate="Please enter a seed or enter 'random'">
+					<input class="input100" type="text" name="seed" placeholder="Enter a seed string or enter 'random':">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input m-b-25" data-validate = "Please enter a number between 0 and 100">
+					<input class="input100" type="number" name="length" placeholder="Enter the number of words to generate:">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-login100-form-btn">
+					<button class="login100-form-btn">
+						Enter
+					</button>
+				</div>
+			<form>
+		</div>
+	</div>
+	<div id="dropDownSelect1"></div>
+
+</body>
+</html>
