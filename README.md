@@ -3,7 +3,9 @@ Webapp that generates poems based on a seed string and a number of words. The we
 
 The app can be found at https://poetrygen.onrender.com/. 
 
+
 ### Lay-out
+<img src="images/img_1.png" width="600" >
 
 ### References
 
