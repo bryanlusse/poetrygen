@@ -1,7 +1,7 @@
 # Poetrygen
-Webapp that generates poems based on a seed string and a number of words. The webapp is made in Flask and uses fastai to predict text from  a previously generated NLP model (fill in link). [Render.com](https://render.com/) is used to deploy the app.
+Webapp that generates poems based on a seed string and a number of words. The webapp is made in Flask and uses fastai to predict text from  a previously generated deep learning model ([github](https://github.com/b-lusse/Deep_learning_interference)). [Render.com](https://render.com/) is used to deploy the app.
 
-The app can be found at https://poetrygen.onrender.com/. 
+#### The app can be found at https://poetrygen.onrender.com/. 
 
 
 ### Lay-out
