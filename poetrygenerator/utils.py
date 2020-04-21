@@ -4,7 +4,7 @@ import sys
 
 
 def generate_from_random(nr_words):
-    model = load_learner("", "poetry_model2.pkl")
+    model = load_learner("", "poetrygenerator/poetry_model2.pkl")
     seed = "xxbos"
     sequence = model.predict(seed, n_words=nr_words, temperature=0.8)
     improved_sequence = sequence.replace("xxbos", "").strip()
@@ -17,7 +17,7 @@ def generate_from_random(nr_words):
 
 
 def generate_from_seed(seed, nr_words):
-    model = load_learner("", "poetry_model2.pkl")
+    model = load_learner("", "poetrygenerator/poetry_model2.pkl")
     sequence = model.predict(seed, n_words=nr_words, temperature=0.8)
     improved_sequence = sequence.replace("xxbos", "").strip()
     html_sequence = improved_sequence.replace("\n", '<br>')
