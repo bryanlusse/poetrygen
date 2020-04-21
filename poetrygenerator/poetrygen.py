@@ -1,6 +1,6 @@
 from flask import render_template
 from flask import Flask, request, url_for
-from utils import generate_from_random, generate_from_seed
+from poetrygenerator.utils import generate_from_random, generate_from_seed
 import sys
 
 
