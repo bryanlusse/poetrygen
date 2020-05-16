@@ -3,7 +3,8 @@ Webapp that generates poems based on a seed string and a number of words. The we
 
 The predictions are not the best, but can be quite funny at times. 
 
-#### The app can be found at https://poetrygen.onrender.com/. 
+#### <s>The app can be found at https://poetrygen.onrender.com/.</s> 
+#### No longer being hosted
 
 
 ### Lay-out
